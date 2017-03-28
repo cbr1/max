@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 82.0, 1298.0, 660.0 ],
+		"rect" : [ 26.0, 85.0, 1298.0, 660.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,17 +66,6 @@
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 164.0, 278.0, 56.0, 22.0 ],
 					"sig" : 0.0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 553.0, 36.0, 97.0, 97.0 ],
 					"style" : ""
 				}
 
@@ -203,19 +192,6 @@
 					"patching_rect" : [ 222.0, 41.0, 88.0, 20.0 ],
 					"style" : "",
 					"text" : "master phasor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 44.0, 68.0, 100.0, 22.0 ],
-					"style" : "",
-					"text" : "-~ 1"
 				}
 
 			}
