@@ -1,2 +1,3 @@
 # max
-max/msp 
+max/msp
+use SSH to connect repo
