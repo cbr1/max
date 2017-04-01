@@ -1,0 +1,3 @@
+vec4 color = texture2D(u_source, %in.fragcoord%.xy * u_ibs);
+
+%out.color% = vec4(vec3(1.0, 1.0, 1.0) - color.rgb, color.a);
