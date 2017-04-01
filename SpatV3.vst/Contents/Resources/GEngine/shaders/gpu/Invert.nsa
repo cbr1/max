@@ -1,0 +1,11 @@
+<NML=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_position"><Semantic="Position">>
+
+		<Uniform=<Name="u_source"><Semantic="NativeTexture">>
+		<Uniform=<Name="u_ibs"><Semantic="InverseViewportSize">>
+	>
+	<Vertex="shaders/gpu/position_no_transform_v.txt">
+	<Fragment="shaders/gpu/Invert_f.txt">
+>

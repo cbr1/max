@@ -1,0 +1,5 @@
+float f_OffsetX = f_ScrollParams.x;
+float f_OffsetY = f_ScrollParams.y;
+float f_Fading  = f_ScrollParams.z;
+
+%out.color% = texture2D(u_source, (%in.fragcoord%.xy + vec2(f_OffsetX, f_OffsetY)) * u_ibs) * f_Fading;
